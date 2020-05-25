@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6deeec3a-f6c5-43f6-bbb1-8f7bff20551e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/coin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/main-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aoFZMIiSRyR4px1sZbGtBIcftQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\verstka\tbcc-landing2" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6deeec3a-f6c5-43f6-bbb1-8f7bff20551e" name="Default Changelist" comment="" />
+      <created>1587394093796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587394093796</updated>
+      <workItem from="1587394095585" duration="18812000" />
+      <workItem from="1587454445927" duration="25997000" />
+      <workItem from="1587489341323" duration="9299000" />
+      <workItem from="1587548380825" duration="3337000" />
+      <workItem from="1588673979189" duration="18957000" />
+      <workItem from="1588695040771" duration="77000" />
+      <workItem from="1588695148171" duration="14000000" />
+      <workItem from="1588752302665" duration="23434000" />
+      <workItem from="1588944126903" duration="4050000" />
+      <workItem from="1589108737739" duration="5646000" />
+      <workItem from="1589197565558" duration="541000" />
+      <workItem from="1589211694642" duration="13361000" />
+      <workItem from="1589266048085" duration="8804000" />
+      <workItem from="1589354913640" duration="5827000" />
+      <workItem from="1589999435010" duration="8194000" />
+      <workItem from="1590042436879" duration="1727000" />
+      <workItem from="1590044209439" duration="1785000" />
+      <workItem from="1590046080766" duration="802000" />
+      <workItem from="1590047371306" duration="18000" />
+      <workItem from="1590047505637" duration="17247000" />
+      <workItem from="1590131571199" duration="19483000" />
+      <workItem from="1590333184291" duration="5834000" />
+      <workItem from="1590393149990" duration="26646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1590439856941">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/0.0.1920.1160@0.0.1920.1160" timestamp="1590439856941" />
+    <state x="667" y="313" width="777" height="592" key="find.popup" timestamp="1590430331622">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="667" y="313" width="777" height="592" key="find.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1590430331622" />
+  </component>
+</project>

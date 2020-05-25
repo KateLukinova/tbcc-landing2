@@ -8,7 +8,27 @@ $( document ).ready(function() {
             speed: 300,
             arrows: false,
             slidesToShow: 1.2,
-            slidesToScroll: 1,
+            slidesToScroll: 1
+        });
+    }
+
+    if (screen.width < 769) {
+        $('.all-icon-box').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            arrows: false,
+            slidesToShow: 3.2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 640,
+                    settings: {
+                        slidesToShow: 1.1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         });
     }
 
@@ -97,6 +117,38 @@ $( document ).ready(function() {
     });
     $(".news-button-next").click(function () {
         $('.news-img-carousel').slick('slickNext');
+    });
+
+    $('.get-carousel').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        arrows: false,
+        slidesToShow: 3,
+        slidesToScroll: 2,
+        responsive: [
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1.2,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+    $(".get-button-prev").click(function () {
+        $('.get-carousel').slick('slickPrev');
+    });
+    $(".get-button-next").click(function () {
+        $('.get-carousel').slick('slickNext');
     });
 
     $('.faq-card-header').click(function() {
