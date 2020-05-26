@@ -352,9 +352,21 @@ p {
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    transition: all 0.5s ease;
+
     &.mini {
         width: 201px;
         height: 50px;
+    }
+
+    &:hover {
+      background: linear-gradient(254.2deg, #00E7FF 4.9%, #28AA9A 100%);
+      box-shadow: 0px 10px 40px rgba(0, 231, 255, 0.3);
+    }
+
+    &:focus {
+      background: linear-gradient(75.88deg, #00E7FF 7.75%, #28AA9A 93.24%);
+      box-shadow: 0px 0px 40px rgba(0, 231, 255, 0.3);
     }
 }
 
@@ -1508,26 +1520,6 @@ footer {
         cursor: pointer;
         -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
-    }
-}
-
-.team-nav-box {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    position: absolute;
-    top: auto;
-    height: -webkit-max-content;
-    height: -moz-max-content;
-    height: max-content;
-    bottom: 0;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    .carousel-nav__button {
-        margin-bottom: 10px;
     }
 }
 

@@ -49,13 +49,6 @@ $( document ).ready(function() {
                 }
             ]
         });
-
-        $(".team-button-prev").click(function () {
-            $('.team-carousel').slick('slickPrev');
-        });
-        $(".team-button-next").click(function () {
-            $('.team-carousel').slick('slickNext');
-        });
     }
 
     $('.post-carousel').slick({
