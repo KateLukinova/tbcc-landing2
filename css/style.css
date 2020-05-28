@@ -662,11 +662,15 @@ p {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 0 40px; }
+  padding: 0 40px;
+  box-sizing: border-box; }
   .changing-block h3 {
     text-align: left; }
   .changing-block .button-box {
     padding-right: 30px; }
+
+.plan-block {
+  width: 40%; }
 
 .btn-mm {
   display: -webkit-box;
@@ -761,7 +765,7 @@ p {
   margin-bottom: 20px; }
   .post-item img {
     min-width: 100%;
-    height: 100%;
+    height: 108%;
     -o-object-fit: cover;
     object-fit: cover;
     -webkit-transition: all 0.5s ease;
