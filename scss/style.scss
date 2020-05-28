@@ -376,6 +376,24 @@ p {
     }
 }
 
+.btn-transparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #00E7FF;
+    border-radius: 50px;
+    border: 1px solid #00E7FF;
+    background-color: white;
+    width: 261px;
+    height: 54px;
+    margin: auto;
+}
+
 
 .advantages-block {
     height: auto;
@@ -1197,12 +1215,17 @@ p {
                 box-sizing: border-box;
                 position: relative;
                 padding-bottom: 25px;
+
+                .news-name {
+                    font-weight: 700;
+                }
             }
 
             .link-text {
                 right: auto;
                 left: 0;
                 background-color: transparent;
+                padding-left: 0;
             }
         }
 
