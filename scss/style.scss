@@ -928,6 +928,8 @@ p {
         -webkit-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
+        -o-object-position: left;
+        object-position: left;
     }
 
     .shild {
@@ -1476,28 +1478,43 @@ footer {
     max-width: 1680px;
     margin: auto;
 
+    .team-carousel {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        width: 100%;
+    }
+
     .team-box__item {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
         background: #FFFFFF;
-        -webkit-box-shadow: 0px 20px 100px rgba(0, 231, 255, 0.15);
-        box-shadow: 0px 20px 100px rgba(0, 231, 255, 0.15);
+        border: 1px solid #f1fdfe;
+        -webkit-box-shadow: 0 6px 15px rgba(0, 231, 255, 0.15);
+        box-shadow: 0 6px 15px rgba(0, 231, 255, 0.15);
         border-radius: 10px;
         overflow: hidden;
-        margin-bottom: 60px;
-        padding-right: 20px;
+        padding: 15px;
+        width: 32%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
 
         .img {
-            min-width: 400px;
+            width: 250px;
+            height: 250px;
             overflow: hidden;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
-            margin-right: 50px;
+            border-radius: 100%;
 
             img {
                 width: 100%;
@@ -1508,7 +1525,7 @@ footer {
         }
 
         h3 {
-            text-align: left;
+            text-align: center;
             margin-top: 45px;
         }
 
@@ -1521,6 +1538,7 @@ footer {
             text-transform: uppercase;
             color: #00E7FF;
             margin-bottom: 50px;
+            text-align: center;
         }
 
         p {
@@ -1530,6 +1548,7 @@ footer {
             font-size: 20px;
             line-height: 1.3;
             color: #333333;
+            text-align: center;
         }
     }
 }
@@ -2636,8 +2655,8 @@ ul.ul-article {
                     -webkit-transform: translateX(-50%);
                     -ms-transform: translateX(-50%);
                     transform: translateX(-50%);
-                    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 231, 255, 0)), color-stop(51.79%, rgba(0, 231, 255, 0.5)), to(rgba(0, 231, 255, 0)));
                     background: -o-linear-gradient(left, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%);
+                    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 231, 255, 0)), color-stop(51.79%, rgba(0, 231, 255, 0.5)), to(rgba(0, 231, 255, 0)));
                     background: linear-gradient(90deg, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%);
                 }
             }
@@ -3024,21 +3043,11 @@ ul.ul-article {
 
     .team-box {
         .team-box__item {
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            padding:0;
-            padding-bottom: 30px;
             min-height: 670px;
             margin-right: 30px;
 
             .img {
                 margin-right: 0;
-                height: 330px;
                 min-width: auto;
             }
 
