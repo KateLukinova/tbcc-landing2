@@ -328,8 +328,14 @@ p {
     box-shadow: 0px 0px 40px rgba(0, 231, 255, 0.3); }
 
 .btn-transparent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -1818,6 +1824,112 @@ article {
   height: auto;
   min-height: 90vh;
   padding: 150px 0; }
+  .wallet-bg-image.link-block {
+    background-image: url("../img/link-img.jpg");
+    min-height: 670px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.wallet-bitcoin {
+  width: 90%;
+  max-width: 1680px;
+  margin: auto;
+  padding: 125px 0; }
+  .wallet-bitcoin h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 1.2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #28AA9A;
+    position: relative;
+    padding: 12px 25px;
+    margin-bottom: 30px; }
+    .wallet-bitcoin h2:after {
+      content: ' ';
+      max-width: 500px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      -webkit-box-shadow: 0px 40px 40px rgba(0, 231, 255, 0.3);
+      box-shadow: 0px 40px 40px rgba(0, 231, 255, 0.3);
+      background: -o-linear-gradient(left, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%);
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 231, 255, 0)), color-stop(51.79%, rgba(0, 231, 255, 0.5)), to(rgba(0, 231, 255, 0)));
+      background: linear-gradient(90deg, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%); }
+  .wallet-bitcoin h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #333333;
+    margin-bottom: 25px;
+    margin-top: 60px; }
+  .wallet-bitcoin p {
+    max-width: 450px; }
+
+.link-block__content {
+  width: 90%;
+  max-width: 1380px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.link-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(42, 246, 255, 0.2);
+  border: 1px solid #2AF6FF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  width: 504px;
+  height: 137px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 120px;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-right: 20px; }
+  .link-item:nth-last-child(2) {
+    margin-bottom: 0; }
+  .link-item:nth-last-child(1) {
+    margin-bottom: 0; }
+  .link-item:hover {
+    color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1); }
 
 .stend {
   width: 100%;
@@ -1924,9 +2036,6 @@ ul.ul-article {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
@@ -1945,10 +2054,24 @@ ul.ul-article {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 25px; }
-  .last-bg-block .column ul li {
+  .last-bg-block .column p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
     color: rgba(255, 255, 255, 0.8); }
   .last-bg-block .column img {
-    max-width: 650px; }
+    max-width: 650px;
+    width: 100%; }
+
+.last-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 @media (max-width: 1500px) {
   .page-news .news-container .main-news .news__item {
@@ -2012,7 +2135,8 @@ ul.ul-article {
     font-size: 18px; }
 
   .bg-top {
-    padding: 50px 0; }
+    padding: 50px 0;
+    margin-top: 75px; }
 
   .page-caption {
     font-size: 36px; }
@@ -2043,7 +2167,40 @@ ul.ul-article {
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
         flex-direction: row;
-        max-width: 700px; } }
+        max-width: 700px; }
+
+  .link-item {
+    margin-bottom: 40px;
+    margin-right: 0; }
+    .link-item:nth-last-child(2) {
+      margin-bottom: 40px; }
+
+  .ob-phone {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important; }
+    .ob-phone .img-wallet-bit {
+      height: 350px;
+      overflow: hidden;
+      max-height: 33vh; }
+    .ob-phone .column {
+      width: 100%;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .ob-phone .column h2 {
+        margin-top: 30px; }
+        .ob-phone .column h2:after {
+          left: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          background: -webkit-gradient(linear, left top, right top, from(rgba(0, 231, 255, 0)), color-stop(51.79%, rgba(0, 231, 255, 0.5)), to(rgba(0, 231, 255, 0)));
+          background: -o-linear-gradient(left, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%);
+          background: linear-gradient(90deg, rgba(0, 231, 255, 0) 0%, rgba(0, 231, 255, 0.5) 51.79%, rgba(0, 231, 255, 0) 100%); }
+      .ob-phone .column p {
+        text-align: center; } }
 @media (max-width: 990px) {
   header .btn-primary.mini {
     display: none; }
@@ -2434,7 +2591,14 @@ ul.ul-article {
       margin-bottom: 34px; }
 
   .news-lenta .news__item p {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .wallet-two-block .column img {
+    max-width: 460px;
+    margin-left: 5%; }
+
+  .last-bg {
+    padding: 50px 0; } }
 @media (max-width: 768px) {
   .advantages-block {
     padding: 70px 0 35px 0; }
@@ -2519,9 +2683,6 @@ ul.ul-article {
   .contacts-block .column {
     margin: auto; }
 
-  .bg-top {
-    margin-top: 100px; }
-
   .team-box {
     width: 100%;
     padding-left: 15px; }
@@ -2592,7 +2753,58 @@ ul.ul-article {
       width: 100%; }
       .news-lenta .news__item .post-item {
         max-width: 400px;
-        min-height: 240px; } }
+        min-height: 240px; }
+
+  .link-item {
+    width: 90%;
+    max-width: 345px;
+    height: 84px;
+    font-size: 20px; }
+
+  .wallet-bitcoin {
+    padding: 60px 0; }
+    .wallet-bitcoin h2 {
+      font-size: 24px;
+      margin-top: 60px; }
+    .wallet-bitcoin h4 {
+      margin-top: 30px; }
+
+  .stend {
+    padding-bottom: 40px;
+    padding-top: 120px; }
+    .stend h3 {
+      text-align: center; }
+    .stend .stend-logo {
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+    .stend ul.ul-article li {
+      font-size: 14px;
+      margin-bottom: 0;
+      padding: 5px 25px;
+      padding-right: 0; }
+
+  .change-bg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    min-height: 900px;
+    background-image: url("../img/change-bg.jpg"); }
+    .change-bg .coin-two-block {
+      margin-bottom: 0; }
+
+  .last-bg-block .column h2 {
+    font-size: 24px;
+    text-align: center; }
+  .last-bg-block .column p {
+    text-align: center; } }
 @media (max-width: 640px) {
   h1 {
     font-size: 24px; }
