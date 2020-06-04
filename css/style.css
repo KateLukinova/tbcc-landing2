@@ -1496,6 +1496,10 @@ article {
     font-size: 22px;
     margin-top: 25px;
     margin-bottom: 15px; }
+  article h5 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px; }
 
 .news-name {
   font-family: 'Montserrat', sans-serif;
